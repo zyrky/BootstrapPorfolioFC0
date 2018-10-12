@@ -1,0 +1,30 @@
+#Masthead{
+    position: fixed;
+    width: 100%;
+    margin: 0 0 30px;
+    overflow: auto;
+    color:blue;
+    background: aqua;
+    border-bottom: 2px  solid black;
+}
+.container {
+    width: 100%;
+    max-width: 960px;
+    clear: both;
+ }
+ nav{
+     float:right;
+     margin: 25px;
+    
+ }
+ nav a{
+     display: inline-block;
+     padding-left: 15px;
+     margin-left: 15px;
+     line-height: 10px;
+     color:green;
+     text-decoration: ;
+ }
+nav a:first-child {
+    border-left: 0 none;
+}
